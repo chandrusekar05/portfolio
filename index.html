@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+
+    <title>CS - Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">C<span>S</span></a>
+        
+        <div class="nav__menu" id="nav-menu">
+
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li><a href="#services" class="nav__link">Services</a></li>
+
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a 
+            href="https://www.instagram.com/c_.h_.a_.n_.d_.r_.u_/"   
+            target="_blank"
+            class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a 
+            href="https://www.linkedin.com/in/chandru-s-02170a289/"   
+            target="_blank"
+            class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a 
+          href="https://www.x.com/it_s_chandru"   
+          target="_blank"
+          class="nav__social-link">
+          <i class="uil uil-twitter"></i>
+          </a>
+
+          <a 
+            href="https://www.github.com/chandrusekar05"   
+            target="_blank"
+            class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Lets's Speak
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to my Website</span>
+            <h1 class="home__title">
+              Hi, I'm Chandru 
+              <span>
+                Student |
+                Graphic Designer 
+              </span>
+                based in INDIA.
+            </h1>
+          </div>
+          
+          <img src="assets/img/home.jpg" alt="" class="home__img">
+        </div>
+
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.png" alt="" class="about__img">
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2> 
+            <p class="about__description">
+              Hello, I'm Chandru, a college student an cyber security enthusiast. I'm currently doing my undergrad at Chennai
+              Institute of Technology in Cyber security. I'm excited to start my career in this field. I'm constantly seeking out
+              new opportunities to enhance my skills in the field of designing. I'm very much interested in web development
+            </p>
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Skills</span>
+              <span class="tabs__btn" data-target="#education">Education</span>
+              <span class="tabs__btn" data-target="#projects">Projects</span>
+              <span class="tabs__btn" data-target="#certification">Certification</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Graphic design experience</span> - Photo Design 
+                    <span>Expert in visual communication & proficiency in Adobe Photoshop.</span>
+                  </p>    
+                  
+                  <p class="tabs__description">
+                    <span>Web and user interface design</span> - Development
+                    <span>Websites, web experience,..</span>
+                  </p>    
+
+                  <p class="tabs__description">
+                    <span>Programming Language Known  - Python  C++</span>
+                  </p>    
+ 
+                </div>
+              </div>
+
+              <div class="tabs__item " data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B.E-CSE (Cyber Security)</span> - Chennai Institute of Technology 
+                    <span>2023 – 2027</span>
+                  </p>    
+                  
+                  <p class="tabs__description">
+                    <span>Higher Secondary Education</span> - St. John’s Public School
+                    <span>2022– 2023</span>
+                  </p>  
+                  
+                </div>
+              </div>
+
+              <div class="tabs__item "  data-content id="projects">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Banking Management System</span> - Python
+                    <span>2022 – 2023</span>
+                  </p>    
+                  
+                  <p class="tabs__description">
+                    <span>Library Management System</span> - C++
+                    <span>2023 – 2024</span>
+                  </p>  
+                  
+                </div>
+              </div>
+
+              <div class="tabs__item " data-content id="certification">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Cisco Certification</span> - Introduction to Cyber Security.
+                  </p>    
+                  
+                  <p class="tabs__description">
+                    <span>Cisco Certification</span> - Cyber Essentials.
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>UiPath Certified Course</span> - Automation Explorer for Students.
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Coursera Certification</span> - HTML, CSS, Javascript for Web Developers.
+                  </p>
+
+                  
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>     
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Service</h2>   
+        <p class="section__description">
+          Transform your brand with standout design services. From environmental graphics to photo editing, print design, and digital experiences. Contact me to bring your vision to life with impactful and creative design solutions.  
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-adobe services__icon"></i>
+            <h3 class="services__title">Graphic Designs</h3>
+            <p class="service__description">
+              Showcase before-and-after images of your photo editing work.
+            </p>
+          </div>       
+
+          <div class="services__item">
+            <i class="uil uil-youtube services__icon"></i>
+            <h3 class="services__title">Thumbnail Design</h3>
+            <p class="service__description">
+              Capture attention and boost clicks with eye-catching YouTube thumbnail designs.
+            </p>
+          </div> 
+          
+          <div class="services__item">
+            <i class="uil uil-instagram services__icon"></i>
+            <h3 class="services__title">Media Handling</h3>
+            <p class="service__description">
+              Enhance your brand's visibility and engagement with professional media handling services.
+            </p>
+          </div> 
+
+          <div class="services__item">
+            <i class="uil uil-object-group services__icon"></i>
+            <h3 class="services__title">Environmental Graphics</h3>
+            <p class="service__description">
+              Design banners, posters and other environmental graphics for events or businesses.
+            </p>
+          </div>     
+
+          <div class="services__item">
+            <i class="uil uil-palette services__icon"></i>
+            <h3 class="services__title">Print Design</h3>
+            <p class="service__description">
+              Design promotional materials with a focus on Brochures and Flyers.
+            </p>
+          </div>   
+
+          <div class="services__item">
+            <i class="uil uil-border-out services__icon"></i>
+            <h3 class="services__title">Social Media Graphics</h3>
+            <p class="service__description">
+              Design engaging visuals for platforms like Instagram, Facebook, and LinkedIn.
+            </p>
+          </div>     
+                    
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Designs</h2>
+        <p class="section__description">
+          Explore my portfolio to see how I bring ideas to life, crafting designs that resonate with audiences and elevate brands.
+        </p>
+
+        <div class="portfolio__container container grid">
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-1.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Poster design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Explore my poster designs to see how I transform concepts into compelling visual narratives. 
+              </p>
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-2.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Logo Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Designs combine sleek aesthetics with strategic branding to create memorable and impactful visual identities. 
+              </p>
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-3.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Media Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Explore my poster designs to see how I transform concepts into compelling visual narratives. 
+              </p>
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-4.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Media Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Explore my poster designs to see how I transform concepts into compelling visual narratives. 
+              </p>
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-5.png"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Poster Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Tempting visuals with brand identity, creating packaging that entices and delights.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-6.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Poster Design</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Explore my poster designs to see how I transform concepts into compelling visual narratives. 
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+            <p class="contact__description">
+              I am available for freelance work. Connect with me via phone: 
+              <a href="tel:+917904603143">+917904603143</a> || email:
+              <a href="mailto:cs8680986@gmail.com">cs8680986@gmail.com.</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+
+              <div class="contact__form-input">
+                <input 
+                type="text" 
+                name="name" 
+                placeholder="Your Name *"
+                class="contact__input"
+                id="contact-name"
+                />
+                
+              </div>
+
+              <div class="contact__form-input">
+                <input 
+                type="email" 
+                name="email" 
+                placeholder="Your e-mail"
+                class="contact__input"
+                id="contact-email"
+                />
+                
+              </div>
+
+              <div class="contact__form-input">
+                <input 
+                type="text" 
+                name="subject" 
+                placeholder="Write a subject"
+                class="contact__input"
+                id="contact-subject"
+                />
+                
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" 
+                class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error__message" id="error-message">Error</p>
+            </form>
+          </div>
+
+          <img src="assets/img/contact.png" alt="" class="contact__img">
+        </div>
+      </section>
+    </main>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">C<span>S</span></a>
+        
+        <div class="footer__socials">
+          
+          <a 
+            href="https://www.instagram.com/c_.h_.a_.n_.d_.r_.u_/"   
+            target="_blank"
+            class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a 
+            href="https://www.linkedin.com/in/chandru-s-02170a289/"   
+            target="_blank"
+            class="footer__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a 
+          href="https://www.x.com/it_s_chandru"   
+          target="_blank"
+          class="footer__social-link">
+          <i class="uil uil-twitter"></i>
+          </a>
+
+          <a 
+            href="https://www.github.com/chandrusekar05"   
+            target="_blank"
+            class="footer__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+
+          
+        </div>
+
+        <p class="footer__copyright">&copy; All rights reserved</p>
+      </div>
+
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
